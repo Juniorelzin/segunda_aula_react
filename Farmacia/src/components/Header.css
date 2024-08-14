@@ -1,0 +1,16 @@
+
+
+.header-container{
+    background-color: #ffffff;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+}
+.header-a{
+    font-size: large;  
+    text-decoration:none;
+    color: #e96a7e; 
+}
+.header-logo{
+    background-color: #ffffff;
+}
