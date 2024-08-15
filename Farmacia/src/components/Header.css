@@ -7,9 +7,12 @@
     justify-content: space-evenly;
 }
 .header-a{
-    font-size: large;  
+    font-size: 25px;  
     text-decoration:none;
     color: #e96a7e; 
+}
+.header-a:hover{  
+    color: #b68a91; 
 }
 .header-logo{
     background-color: #ffffff;

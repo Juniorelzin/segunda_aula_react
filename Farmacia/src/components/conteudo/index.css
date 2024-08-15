@@ -2,14 +2,21 @@
     background-color: #e23e57;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
-.conteudo-logo{
+.conteudo-imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #3ee23e;
+}
+.img-logo{
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
-    height: 20%;
-    width: 20%;
+    height: 65%;
+    width: 25%;
    
      
 }
@@ -19,16 +26,67 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    background-color: aqua;
+    width: 100%;
+ 
+}
+.conteudo-p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+   
 }
 p{
     font-size: large;  
     text-decoration:none;
     color: #ffffff;
-    letter-spacing: 1px;  
+    letter-spacing: 1px;
+    
 }
-ul{
-    font-size: large;  
-    text-decoration:none;
-    color: #ffffff; 
-    letter-spacing: 1px;  
+.p1{
+    font-size: 30px;  
 }
+.p2{
+    font-size: 20px;  
+}
+.p3{
+    font-size: 25px;
+    color: rgb(255, 255, 2);  
+}
+.conteudo-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: aliceblue;
+   
+}
+.conteudo-footer-imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    width: 50%;
+}
+.conteudo-footer-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.img-seta{
+    height: 20%;
+}
+.img-camisas{
+    border-radius: 10%;
+    height: 30%;
+    cursor: pointer;
+}
+.img-camisas:hover{
+    border-radius: 10%;
+    height: 35%;
+    cursor: pointer;
+}
+
