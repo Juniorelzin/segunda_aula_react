@@ -4,7 +4,7 @@ import Header from "../components/Header"
 
 function Home() {
   return (
-    <div className="divtotal">
+    <div>
         <Header />
         <Conteudo />
     </div>
